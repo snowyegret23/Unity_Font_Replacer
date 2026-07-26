@@ -1,7 +1,3 @@
-"""PlayStation 5 texture layout, swizzle, and detection helpers."""
-
-from __future__ import annotations
-
 import math
 import os
 import re

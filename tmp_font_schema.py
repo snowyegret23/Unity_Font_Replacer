@@ -1,7 +1,3 @@
-"""TextMesh Pro font-schema detection and pure data conversion helpers."""
-
-from __future__ import annotations
-
 import copy
 import re
 from collections.abc import Iterable

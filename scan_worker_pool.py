@@ -1,11 +1,3 @@
-"""Persistent subprocess pool used by Unity font asset scans.
-
-The protocol is deliberately prefixed so normal CLI/logging output from a
-worker cannot be mistaken for a response frame.
-"""
-
-from __future__ import annotations
-
 import json
 import os
 import queue

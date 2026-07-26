@@ -1,7 +1,3 @@
-"""Unity asset discovery and in-process font scanning primitives."""
-
-from __future__ import annotations
-
 import gc
 import logging
 import os
@@ -333,7 +329,7 @@ def scan_fonts_from_env(
 
 def scan_fonts_in_asset_file(
     assets_file: str,
-    generator: TypeTreeGenerator | None,
+    generator: "TypeTreeGenerator | None",
     lang: Language = "ko",
     detect_ps5_swizzle: bool = False,
     scan_ttf: bool = True,

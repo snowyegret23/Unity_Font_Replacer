@@ -1,7 +1,3 @@
-"""Structural validation helpers for UnityFS and serialized assets."""
-
-from __future__ import annotations
-
 import os
 import re
 import struct
